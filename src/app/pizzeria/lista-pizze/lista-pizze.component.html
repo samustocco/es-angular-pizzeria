@@ -1,0 +1,10 @@
+<div id="lista-pizze">
+  <h2>Lista Pizze</h2>
+  <ul>
+    @for (item of arrayPizze; track item.nome) {
+        <li (click)="onPizzaClicked(item)">{{ item.nome }}</li>
+        } @empty {
+        <li>Non ci sono pizze</li>
+        }
+  </ul>
+</div>

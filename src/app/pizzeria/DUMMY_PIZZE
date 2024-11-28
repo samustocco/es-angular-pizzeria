@@ -1,0 +1,25 @@
+import { type Pizza } from './pizza/pizza.model';
+
+export const Pizze: Pizza[] = [
+    {
+        id: 1,
+        nome: 'Margherita',
+        ingredienti: ['Pomodoro', 'Mozzarella', 'Basilico'],
+        prezzo: 5.5,
+        disp: true
+    },
+    {
+        id: 2,
+        nome: '4 formaggi',
+        ingredienti: ['Pomodoro', 'Mozzarella', 'Gorgonzola', 'Fontina', 'Parmigiano'],
+        prezzo: 7.5,
+        disp: false
+    },
+    {
+        id: 3,
+        nome: 'Tibald Gluten',
+        ingredienti: ['Pomodoro', 'Mozzarella', 'Basilico', 'Glutine'],
+        prezzo: 6,
+        disp: true
+    }
+];
